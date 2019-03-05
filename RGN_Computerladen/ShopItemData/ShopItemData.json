@@ -1,0 +1,100 @@
+[
+  {
+    "id":  0,
+    "type": "Product",
+    "price": "600",
+    "estimatedWorkingHours": "0",
+    "name": "Nvidia GTX 2070"
+  },
+  {
+    "id": 1,
+    "type": "Product",
+    "price": "930",
+    "estimatedWorkingHours": "0",
+    "name": "Nvidia GTX 2080"
+  },
+  {
+    "id": 2,
+    "type": "Product",
+    "price": "230",
+    "estimatedWorkingHours": "0",
+    "name": "AMD Ryzen 2800X"
+  },
+  {
+    "id": 3,
+    "type": "Product",
+    "price": "440",
+    "estimatedWorkingHours": "0",
+    "name": "Intel Core i7-9700K"
+  },
+  {
+    "id": 4,
+    "type": "Product",
+    "price": "75",
+    "estimatedWorkingHours": "0",
+    "name": "2 x 8 GB RAM"
+  },
+  {
+    "id": 5,
+    "type": "Product",
+    "price": "50",
+    "estimatedWorkingHours": "0",
+    "name": "Standard Case"
+  },
+  {
+    "id": 6,
+    "type": "Product",
+    "price": "60",
+    "estimatedWorkingHours": "0",
+    "name": "Standard Netzteil"
+  },
+  {
+    "id": 7,
+    "type": "Product",
+    "price": "70",
+    "estimatedWorkingHours": "0",
+    "name": "SSD 500 GB"
+  },
+  {
+    "id": 8,
+    "type": "Product",
+    "price": "70",
+    "estimatedWorkingHours": "0",
+    "name": "HDD 2 TB"
+  },
+  {
+    "id": 9,
+    "type": "Product",
+    "price": "20",
+    "estimatedWorkingHours": "0",
+    "name": "Standard Tastatur"
+  },
+  {
+    "id": 10,
+    "type": "Product",
+    "price": "10",
+    "estimatedWorkingHours": "0",
+    "name": "Standard Maus"
+  },
+  {
+    "id": 11,
+    "type": "Service",
+    "price": "40",
+    "estimatedWorkingHours": "5",
+    "name": "Computer Zusammenbau"
+  },
+  {
+    "id": 12,
+    "type": "Service",
+    "price": "40",
+    "estimatedWorkingHours": "3",
+    "name": "Installation des OS"
+  },
+  {
+    "id": 13,
+    "type": "Service",
+    "price": "40",
+    "estimatedWorkingHours": "2",
+    "name": "Entfernen von Viren"
+  }
+]

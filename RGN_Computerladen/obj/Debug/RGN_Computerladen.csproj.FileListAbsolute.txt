@@ -1,0 +1,16 @@
+C:\Users\Kevin\Documents\Visual Studio 2017\Projects\RGN_Computerladen\RGN_Computerladen\bin\Debug\RGN_Computerladen.exe.config
+C:\Users\Kevin\Documents\Visual Studio 2017\Projects\RGN_Computerladen\RGN_Computerladen\bin\Debug\RGN_Computerladen.exe
+C:\Users\Kevin\Documents\Visual Studio 2017\Projects\RGN_Computerladen\RGN_Computerladen\bin\Debug\RGN_Computerladen.pdb
+C:\Users\Kevin\Documents\Visual Studio 2017\Projects\RGN_Computerladen\RGN_Computerladen\obj\Debug\RGN_Computerladen.csprojAssemblyReference.cache
+C:\Users\Kevin\Documents\Visual Studio 2017\Projects\RGN_Computerladen\RGN_Computerladen\obj\Debug\RGN_Computerladen.Properties.Resources.resources
+C:\Users\Kevin\Documents\Visual Studio 2017\Projects\RGN_Computerladen\RGN_Computerladen\obj\Debug\RGN_Computerladen.csproj.GenerateResource.cache
+C:\Users\Kevin\Documents\Visual Studio 2017\Projects\RGN_Computerladen\RGN_Computerladen\obj\Debug\RGN_Computerladen.csproj.CoreCompileInputs.cache
+C:\Users\Kevin\Documents\Visual Studio 2017\Projects\RGN_Computerladen\RGN_Computerladen\obj\Debug\RGN_Computerladen.exe
+C:\Users\Kevin\Documents\Visual Studio 2017\Projects\RGN_Computerladen\RGN_Computerladen\obj\Debug\RGN_Computerladen.pdb
+C:\Users\Kevin\Documents\Visual Studio 2017\Projects\RGN_Computerladen\RGN_Computerladen\obj\Debug\RGN_Computerladen.frmMainWindow.resources
+C:\Users\Kevin\Documents\Visual Studio 2017\Projects\RGN_Computerladen\RGN_Computerladen\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Kevin\Documents\Visual Studio 2017\Projects\RGN_Computerladen\RGN_Computerladen\bin\Debug\Newtonsoft.Json.pdb
+C:\Users\Kevin\Documents\Visual Studio 2017\Projects\RGN_Computerladen\RGN_Computerladen\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Kevin\Documents\Visual Studio 2017\Projects\RGN_Computerladen\RGN_Computerladen\obj\Debug\RGN_Computerladen.csproj.CopyComplete
+C:\Users\Kevin\Documents\Visual Studio 2017\Projects\RGN_Computerladen\RGN_Computerladen\bin\Debug\ShopItemData\PackageItemData.json
+C:\Users\Kevin\Documents\Visual Studio 2017\Projects\RGN_Computerladen\RGN_Computerladen\bin\Debug\ShopItemData\ShopItemData.json
