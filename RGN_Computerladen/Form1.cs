@@ -95,6 +95,7 @@ namespace RGN_Computerladen
 
         private void addToShoppingList(int selectedItem)
         {
+            // SubItem 2 = Anzahl in der ListView
             ListViewItem.ListViewSubItem lvwItem = lvwShopItems.Items[selectedItem].SubItems[2];
             if (lvwItem.Text.Equals("1")) {
                 lvwItem.Text = "0";
@@ -110,6 +111,7 @@ namespace RGN_Computerladen
         {
             for(int i =0;i<lvwShopItems.Items.Count;i++)
             {
+                // SubItem 2 (Anzahl) überall auf 0 setzen
                 lvwShopItems.Items[i].SubItems[2].Text = "0";
             }
             updateDiscount(false);
@@ -119,6 +121,7 @@ namespace RGN_Computerladen
 
         private void lvwShopItems_DoubleClick(object sender, EventArgs e)
         {
+            // Ein Doppelklick auf ein Listenobjekt legt es in den Warenkorb
             addToShoppingList(lvwShopItems.SelectedIndices[0]);
         }
 
@@ -138,11 +141,14 @@ namespace RGN_Computerladen
 
         private void selectPackage(int packageId)
         {
+            // Rabatt setzen, da Pakete immer 10% Rabatt erhalten
             updateDiscount(true);
             for (int i = 0; i < packageItems[packageId].items.Count; i++)
             {
+                // Jedes Item aus der packateItems item Liste auf der UI anchecken
                 addToShoppingList(Convert.ToInt32(packageItems[packageId].items[i]));
             }
+            // SelbstConfig deaktivieren
             cbSelfConfig.CheckState = CheckState.Unchecked;
         }
 
@@ -150,9 +156,13 @@ namespace RGN_Computerladen
         {
             if (cbSelfConfig.Checked == true)
             {
+                // Rabatt deaktivieren sobald CheckBox abgecheckt wird
                 updateDiscount(false);
+                // Preis updaten, da Rabatt nun weg ist
                 updatePrice();
+                // ListView aktivieren
                 lvwShopItems.Enabled = true;
+                // Shopping Liste leeren oder nicht? --> Reset Button eingefügt
                 //clearShoppingList();
             }
             else if (cbSelfConfig.Checked == false)
@@ -167,13 +177,17 @@ namespace RGN_Computerladen
 
             for (int i = 0; i < lvwShopItems.Items.Count; i++)
             {
+                // Wenn min. 1 Item im Warenkorb ist
                 if (Convert.ToInt32(lvwShopItems.Items[i].SubItems[2].Text) > 0)
                 {
+                    // Wenn es ein Produkt ist, dann Anzahl * Preis
                     if (shopItems[i].type.Equals("Product"))
                     {
                         newPrice += Convert.ToInt32(shopItems[i].price) *
                             Convert.ToInt32(lvwShopItems.Items[i].SubItems[2].Text);
-                    } else if (shopItems[i].type.Equals("Service"))
+                    }
+                    // Wenn es eine Dienstleistung ist, dann Anzahl * Preis * Stunden
+                    else if (shopItems[i].type.Equals("Service"))
                     {
                         newPrice += Convert.ToInt32(shopItems[i].price) *
                             Convert.ToInt32(lvwShopItems.Items[i].SubItems[2].Text) *
@@ -185,6 +199,7 @@ namespace RGN_Computerladen
             // Rabatt mitberechnen
             newPrice = newPrice * (1.0 - packageDiscount);
 
+            // Preis in Textbox updaten
             tbFullPrice.Text = newPrice.ToString();
         }
 
